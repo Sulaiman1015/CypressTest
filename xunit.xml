@@ -1,0 +1,46 @@
+<testsuite name="Mocha Tests" tests="1" failures="0" errors="1" skipped="0" timestamp="Thu, 01 Apr 2021 07:41:59 GMT" time="8.332">
+<testcase classname="working with plugins" name="files upload" time="0"><failure>Cypress detected a cross origin error happened on page load:
+
+  &#x3E; Blocked a frame with origin &#x22;https://cgi-lib.berkeley.edu&#x22; from accessing a cross-origin frame.
+
+Before the page load, you were bound to the origin policy:
+
+  &#x3E; https://berkeley.edu
+
+A cross origin error happens when your application navigates to a new URL which does not match the origin policy above.
+
+A new URL does not match the origin policy if the &#x27;protocol&#x27;, &#x27;port&#x27; (if specified), and/or &#x27;host&#x27; (unless of the same superdomain) are different.
+
+Cypress does not allow you to navigate to a different origin URL within a single test.
+
+You may need to restructure some of your test code to avoid this problem.
+
+Alternatively you can also disable Chrome Web Security in Chromium-based browsers which will turn off this restriction by setting { chromeWebSecurity: false } in &#x60;cypress.json&#x60;.
+
+https://on.cypress.io/cross-origin-violation
+CypressError: Cypress detected a cross origin error happened on page load:
+
+  &#x3E; Blocked a frame with origin &#x22;https://cgi-lib.berkeley.edu&#x22; from accessing a cross-origin frame.
+
+Before the page load, you were bound to the origin policy:
+
+  &#x3E; https://berkeley.edu
+
+A cross origin error happens when your application navigates to a new URL which does not match the origin policy above.
+
+A new URL does not match the origin policy if the &#x27;protocol&#x27;, &#x27;port&#x27; (if specified), and/or &#x27;host&#x27; (unless of the same superdomain) are different.
+
+Cypress does not allow you to navigate to a different origin URL within a single test.
+
+You may need to restructure some of your test code to avoid this problem.
+
+Alternatively you can also disable Chrome Web Security in Chromium-based browsers which will turn off this restriction by setting { chromeWebSecurity: false } in &#x60;cypress.json&#x60;.
+
+https://on.cypress.io/cross-origin-violation
+    at onPageLoadErr (https://cgi-lib.berkeley.edu/__cypress/runner/cypress_runner.js:158410:17)
+    at HTMLIFrameElement.&#x3C;anonymous&#x3E; (https://cgi-lib.berkeley.edu/__cypress/runner/cypress_runner.js:171468:17)
+    at HTMLIFrameElement.dispatch (https://cgi-lib.berkeley.edu/__cypress/runner/cypress_runner.js:92038:27)
+    at HTMLIFrameElement.elemData.handle (https://cgi-lib.berkeley.edu/__cypress/runner/cypress_runner.js:91846:28)
+From Your Spec Code:
+    at Context.eval (https://cgi-lib.berkeley.edu/__cypress/tests?p=cypress/integration/mytests/TC08_Plugin-Uploadfiles.js:112:8)</failure></testcase>
+</testsuite>

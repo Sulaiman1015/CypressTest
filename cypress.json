@@ -1,0 +1,13 @@
+{
+    "baseUrl":"https://react-redux.realworld.io",
+    
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reportDir": "cypress/report/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      }
+      
+}
